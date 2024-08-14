@@ -16677,7 +16677,7 @@ input[type=number] {
 
 .header-sticky.sticky-bar {
   z-index: 990 !important;
-  background-color: var(--white);
+  background-color: var(--header-bg3);
 }
 
 .logo-large img {
@@ -17308,7 +17308,7 @@ input[type=number] {
   left: 0px;
   bottom: 0;
   z-index: 0;
-  background: var(--primary);
+  /* background: var(--primary); */
 }
 .header-area-three .main-header .main-menu .listing .single-list .single.active > .single {
   color: var(--primary);

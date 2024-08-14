@@ -17288,6 +17288,7 @@ input[type=number] {
   display: block;
   font-size: 16px;
   text-transform: capitalize;
+  cursor:pointer;
 }
 .header-area-three .main-header .main-menu .listing .single-list .single i {
   font-size: 14px;
@@ -20763,6 +20764,28 @@ input[type=number] {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.info-icon {
+  min-width: 52px;
+  max-width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: var(--about-icon);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.info-icon i {
+  color: var(--primary-title);
+  font-size: 20px;
+}
+
 .about-info .info-icon i {
   color: var(--primary-title);
   font-size: 20px;

@@ -25350,3 +25350,34 @@ input[type=number] {
 
 .border{border-width: 1px; border-style:solid; border-color:  var(--primary-gray);}
 .qr-code{width: 90%; margin: 20px auto; display: block;}
+
+@media(min-width:993px) and (max-width:1129px) {
+  .main-menu nav ul{ display: flex;}
+  .header-area-three .main-header .main-menu .listing .single-list .single{ font-size: 14px; white-space: nowrap;}
+  .menu-wrapper{ overflow-y: auto;}
+}
+
+
+@media(min-width:1130px) and (max-width:1219px) {
+  .container{ max-width: 1130px!important;}
+  .logo img {max-width: 200px;}
+  .header-area-three .main-header .main-menu .listing .single-list .single{font-size: 14px; white-space: nowrap;}
+  .main-menu nav ul{ display: flex;}
+  
+}
+
+@media(min-width:1220px) and (max-width:1299px) {
+  .container{ max-width: 1220px!important;}
+  .logo img {max-width: 200px;}
+  .header-area-three .main-header .main-menu .listing .single-list .single{font-size: 14px; white-space: nowrap;}
+}
+  
+@media(min-width:1300px) and (max-width:1399px) {
+  .container{ max-width: 1300px!important;}
+  .logo img {max-width: 200px;}
+}
+  
+@media(min-width:1400px) and (max-width:1460px) {
+  .container{ max-width: 1400px!important;}
+  
+}

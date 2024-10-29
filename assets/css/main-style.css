@@ -14141,23 +14141,23 @@ object {
 }
 @media (max-width: 991px) {
   .bottom-padding {
-    padding-bottom: 70px;
+    padding-bottom: 50px;
   }
 }
 
 .top-bottom-padding {
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 @media (max-width: 991px) {
   .top-bottom-padding {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
 .top-bottom-padding2 {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 110px;
 }
 @media (max-width: 991px) {
@@ -25381,3 +25381,10 @@ input[type=number] {
   .container{ max-width: 1400px!important;}
   
 }
+
+
+.main-volunteer{width: 14rem; border-radius: 100% !important; margin: 0 auto; }
+.team-info h4{font-size: 22px; font-weight: 700;line-height: 30px; color: var(--primary-title);}
+
+.team-info .role{ color: var(--primary); font-size: 16px;}
+.team-info  .volunteer-description{ max-width: 600px; width: 98%; margin: 0 auto; }
